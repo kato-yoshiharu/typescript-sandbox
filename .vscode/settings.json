@@ -38,12 +38,5 @@
   },
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
-  },
-
-  "terminal.integrated.profiles.osx": {
-    "dev": {
-      "path": "${workspaceFolder}/dev.sh"
-    }
-  },
-  "terminal.integrated.defaultProfile.osx": "dev"
+  }
 }
