@@ -13,9 +13,12 @@
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write --log-level=warn '**/*.{js,jsx,ts,tsx,html,gql,graphql,json}'",
+    "biome:lint": "biome check",
+    "biome:format": "biome check --write",
     "test": "vitest"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@suimenkathemove/eslint-config": "^0.1.10",
     "@suimenkathemove/prettier-config": "^0.1.4",
     "@suimenkathemove/tsconfig": "^0.1.17",

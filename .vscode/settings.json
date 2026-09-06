@@ -1,16 +1,13 @@
 {
-  "css.validate": false,
   "editor.formatOnSave": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "scss.validate": false,
-  "terminal.integrated.defaultProfile.osx": "dev",
   "typescript.tsdk": "./node_modules/typescript/lib",
   "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
     "editor.codeActionsOnSave": {
       "source.fixAll.markdownlint": "explicit"
     },
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
     "editor.tabSize": 2
   },
   "[shellscript]": {
@@ -22,11 +19,14 @@
     "editor.tabSize": 2
   },
   "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "editor.defaultFormatter": "biomejs.biome",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit",
       "source.fixAll.stylelint": "explicit"
+      // "source.fixAll.biome": "explicit",
+      // "source.organizeImports.biome": "explicit"
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
   "[graphql][json][jsonc]": {
