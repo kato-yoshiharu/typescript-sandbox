@@ -1,9 +1,10 @@
 {
   "extends": "@suimenkathemove/tsconfig",
   "compilerOptions": {
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["src/*"],
+      "@hono-app/*": ["hono-app/src/*"]
     }
   },
   "include": ["**/*.ts"],

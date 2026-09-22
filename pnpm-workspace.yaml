@@ -1,0 +1,5 @@
+packages:
+  - "hono-app"
+
+allowBuilds:
+  esbuild: false

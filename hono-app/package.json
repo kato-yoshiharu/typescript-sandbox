@@ -1,0 +1,19 @@
+{
+  "name": "hono-app",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "bench": "autocannon -c 10 -d 5"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.1",
+    "hono": "^4.13.8"
+  },
+  "devDependencies": {
+    "autocannon": "^8.0.0",
+    "tsx": "^4.23.0"
+  }
+}
